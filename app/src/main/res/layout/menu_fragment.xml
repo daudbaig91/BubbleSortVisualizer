@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/displayslide"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/topbar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/hidelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/CountingBttn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="COUNTING SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/BubbleSort"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="BUBBLE SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/rQuickBttn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="RANDOM QUICK SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/QuickBttn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="QUICK SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/MergeBttn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="MERGE SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/SortingBttn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="SELECTION SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/InsertBttn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="INSERT SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/RadixBttn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="#6A040F"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="buttnselect"
+            android:text="RADIX-SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/SelectBttn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/neural" />
+
+        <TextView
+            android:id="@+id/titletopbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="BUBBLE SORT"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
