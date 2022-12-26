@@ -4,7 +4,7 @@ Bubble sort visualizer with the purpose of a clean design and smooth functionali
 
 After checking other android visualizer apps, one of my main targets with this app was to give a good user experience, compared to other apps which lacked a appealing design, without basic to no appealing) animations and also lacking intereactive experince with the user.
 
-Thanks for reading. :)
+Thanks for reading. //:)
 
 <br clear="left"/>
 
